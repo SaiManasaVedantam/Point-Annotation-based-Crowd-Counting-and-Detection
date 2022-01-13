@@ -29,12 +29,14 @@ http://lingboliu.com/RGBT_Crowd_Counting.html
 ## Empirical Results
 <img width="827" alt="Results" src="https://user-images.githubusercontent.com/28973352/149384487-1eafb6d6-e067-44c1-ab61-556605f49abf.png">
 
-## Inspiration
-1. Paper : https://www.researchgate.net/publication/332169556_Point_in_Box_out_Beyond_Counting_Persons_in_Crowds
-2. Raw   : https://www.arxiv-vanity.com/papers/1904.01333/
-
 ## Execution Instructions
 1. Data-Preprocessing.py helps you to understand how the images are preprocessed & how several parts of image are identified.
 2. Data-Preprocessing-People-Only.py helps you to preprocess images focusing on identifying only the persons.
 3. Training-and-Testing.py helps you to understand how the model is trained & tested for different classes.
 4. Training-and-Testing-People-Only.py helps you to perform actual training & testing of the model aiming to detect as well as count people.
+
+## Languages, Tools & Technolgies
+1. Python
+2. Google Colab
+3. Tenserflow
+4. Keras
